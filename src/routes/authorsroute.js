@@ -31,7 +31,7 @@ authorsRouter.get('/addauthor',function(req,res){
 
 //router to add author
 authorsRouter.post('/add', function (req, res) {
-    alert(req.body)  ;
+    
     var item={
         title:req.body.title,
         image:req.body.image,// Part #2 Point 8 
